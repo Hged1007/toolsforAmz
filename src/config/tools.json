@@ -1,0 +1,34 @@
+{
+  "tools": [
+    {
+      "id": "unit-converter",
+      "name": "单位换算器",
+      "nameEn": "Unit Converter",
+      "icon": "Ruler",
+      "description": "长度、重量单位快速换算",
+      "enabled": true
+    },
+    {
+      "id": "text-processor",
+      "name": "文字处理器",
+      "nameEn": "Text Processor",
+      "icon": "Type",
+      "description": "文本大小写转换与格式调整",
+      "enabled": true
+    }
+  ],
+  "comingSoon": [
+    {
+      "name": "利润试算器",
+      "nameEn": "Profit Calculator",
+      "icon": "Calculator",
+      "description": "计算净利润与利润率"
+    },
+    {
+      "name": "关键词密度分析",
+      "nameEn": "Keyword Density",
+      "icon": "Search",
+      "description": "分析产品描述中的关键词频率"
+    }
+  ]
+}

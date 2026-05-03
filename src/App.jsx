@@ -1,0 +1,35 @@
+import { useState } from 'react'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import UnitConverter from './tools/unit-converter/UnitConverter'
+import TextProcessor from './tools/text-processor/TextProcessor'
+import toolsConfig from './config/tools.json'
+
+const toolComponents = {
+  'unit-converter': UnitConverter,
+  'text-processor': TextProcessor,
+}
+
+const tabs = toolsConfig.tools.filter((tool) => tool.enabled)
+
+export default function App() {
+  const [activeTab, setActiveTab] = useState(tabs[0]?.id || 'unit-converter')
+
+  const ActiveTool = toolComponents[activeTab]
+
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Header
+        activeTab={activeTab}
+        onTabChange={setActiveTab}
+        tabs={tabs}
+      />
+
+      <main className="flex-1 max-w-5xl w-full mx-auto px-4 py-8">
+        {ActiveTool && <ActiveTool />}
+      </main>
+
+      <Footer />
+    </div>
+  )
+}

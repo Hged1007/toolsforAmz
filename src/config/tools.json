@@ -17,6 +17,14 @@
       "enabled": true
     },
     {
+      "id": "logistics-tracker",
+      "name": "物流查询",
+      "nameEn": "Logistics Tracker",
+      "icon": "Package",
+      "description": "整合17TRACK物流查询工具",
+      "enabled": true
+    },
+    {
       "id": "text-processor",
       "name": "文字处理器",
       "nameEn": "Text Processor",

@@ -3,12 +3,14 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import UnitConverter from './tools/unit-converter/UnitConverter'
 import CurrencyConverter from './tools/currency-converter/CurrencyConverter'
+import LogisticsTracker from './tools/logistics-tracker/LogisticsTracker'
 import TextProcessor from './tools/text-processor/TextProcessor'
 import toolsConfig from './config/tools.json'
 
 const toolComponents = {
   'unit-converter': UnitConverter,
   'currency-converter': CurrencyConverter,
+  'logistics-tracker': LogisticsTracker,
   'text-processor': TextProcessor,
 }
 

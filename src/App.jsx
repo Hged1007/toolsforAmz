@@ -2,11 +2,13 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import UnitConverter from './tools/unit-converter/UnitConverter'
+import CurrencyConverter from './tools/currency-converter/CurrencyConverter'
 import TextProcessor from './tools/text-processor/TextProcessor'
 import toolsConfig from './config/tools.json'
 
 const toolComponents = {
   'unit-converter': UnitConverter,
+  'currency-converter': CurrencyConverter,
   'text-processor': TextProcessor,
 }
 

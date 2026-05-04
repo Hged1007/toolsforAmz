@@ -9,6 +9,14 @@
       "enabled": true
     },
     {
+      "id": "currency-converter",
+      "name": "汇率转换器",
+      "nameEn": "Currency Converter",
+      "icon": "Globe",
+      "description": "多币种实时汇率转换",
+      "enabled": true
+    },
+    {
       "id": "text-processor",
       "name": "文字处理器",
       "nameEn": "Text Processor",

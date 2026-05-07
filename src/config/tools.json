@@ -31,14 +31,22 @@
       "icon": "Type",
       "description": "文本大小写转换与格式调整",
       "enabled": true
+    },
+    {
+      "id": "profit-calculator",
+      "name": "利润计算器",
+      "nameEn": "Profit Calculator",
+      "icon": "Calculator",
+      "description": "计算亚马逊产品利润与利润率",
+      "enabled": true
     }
   ],
   "comingSoon": [
     {
-      "name": "利润试算器",
-      "nameEn": "Profit Calculator",
-      "icon": "Calculator",
-      "description": "计算净利润与利润率"
+      "name": "关键词密度分析",
+      "nameEn": "Keyword Density",
+      "icon": "Search",
+      "description": "分析产品描述中的关键词频率"
     },
     {
       "name": "关键词密度分析",

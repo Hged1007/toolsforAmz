@@ -5,6 +5,7 @@ import UnitConverter from './tools/unit-converter/UnitConverter'
 import CurrencyConverter from './tools/currency-converter/CurrencyConverter'
 import LogisticsTracker from './tools/logistics-tracker/LogisticsTracker'
 import TextProcessor from './tools/text-processor/TextProcessor'
+import ProfitCalculator from './tools/profit-calculator/ProfitCalculator'
 import toolsConfig from './config/tools.json'
 
 const toolComponents = {
@@ -12,6 +13,7 @@ const toolComponents = {
   'currency-converter': CurrencyConverter,
   'logistics-tracker': LogisticsTracker,
   'text-processor': TextProcessor,
+  'profit-calculator': ProfitCalculator,
 }
 
 const tabs = toolsConfig.tools.filter((tool) => tool.enabled)

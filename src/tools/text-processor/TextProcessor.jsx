@@ -139,6 +139,11 @@ const formatOperations = [
     label: '清除换行',
     handler: (text) => text.replace(/\r?\n/g, '')
   },
+  {
+    id: 'spaceToComma',
+    label: '空格→逗号',
+    handler: (text) => text.replace(/\s+/g, ',')
+  },
 ]
 
 export default function TextProcessor() {
